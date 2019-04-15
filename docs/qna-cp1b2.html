@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h3>Q1 (Module 3)</h3>
+                <hr>
+                <p>As the product Engineer is diff from full stack, what all different preparation must we do when we
+                    join as a fresher, as we'd not be very fimilar with the projects at first. But as full stack we know
+                    what our work revolves around.</p>
+            </section>
+            <section>
+                <h3>Q2 (Module 3)</h3>
+                <hr>
+                <p>Is SRE(Site Reliability Engineering) a different vertical of Publicis.Sapient or is it a methodology
+                    which is to be followed?</p>
+            </section>
+            <section>
+                <h3>Q3 (Module 1)</h3>
+                <hr>
+                <p>Shouldn't prioritization of the problems faced in the universe air project needs to be done based on
+                    frequency and duration of the travel of the passenger?</p>
+            </section>
+            <section>
+                <h3>Q4 (Module 1)</h3>
+                <hr>
+                <p>As per the lean development, the product must be released frequently and then evolve iteratively
+                    based on customer feedback. But doesn't this strategy can be taken as an advantage by the competitor
+                    in grabbing the idea and delivering the product early than ours?</p>
+            </section>
+            <section>
+                <h3>Q5 (Module 1)</h3>
+                <hr>
+                <p>What is the optimum time that needs to be allocated for all the three phases separately in the design
+                    thinking process? Does the project influence this time period allotment?</p>
+            </section>
+            <section>
+                <h3>Q6 (Module 1)</h3>
+                <hr>
+                <p>What if there are 2 problems for which there can't be a single composite solution to work upon? Shall
+                    we have to choose any one of them or teams must be set different to work upon those separately?</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="js/reveal.js"></script>
+
+    <script>
+        // More info about config & dependencies:
+        // - https://github.com/hakimel/reveal.js#configuration
+        // - https://github.com/hakimel/reveal.js#dependencies
+        Reveal.initialize({
+            controls: true,
+            transition: 'concave',
+            progress: true,
+            dependencies: [{
+                    src: 'plugin/markdown/marked.js'
+                },
+                {
+                    src: 'plugin/markdown/markdown.js'
+                },
+                {
+                    src: 'plugin/notes/notes.js',
+                    async: true
+                },
+                {
+                    src: 'plugin/highlight/highlight.js',
+                    async: true
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>
