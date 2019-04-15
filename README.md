@@ -1,5 +1,11 @@
 ## Welcome to GitHub Pages
 
+[Batch #1 Quiz Content Pack #1 - 13.04.2019](https://yantrashala.github.io/propel-2019-pjp/quiz-cp1-b1.html) 
+[Batch #1 Q&A Content Pack #1 - 13.04.2019](https://yantrashala.github.io/propel-2019-pjp/qna-cp1-b1.html) 
+
+[Batch #2 Quiz Content Pack #1 - 15.04.2019](https://yantrashala.github.io/propel-2019-pjp/quiz-cp1-b2.html) 
+[Batch #2 Q&A Content Pack #1 - 15.04.2019](https://yantrashala.github.io/propel-2019-pjp/qna-cp1-b2.html) 
+
 You can use the [editor on GitHub](https://github.com/yantrashala/propel-2019-pjp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
