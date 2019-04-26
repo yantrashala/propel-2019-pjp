@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h3>Q1 (Module 4)</h3>
+                <hr>
+                <p>Is it always good to go for Declarative style of programming over Imperative style of programming? Explain.</p>
+            </section>
+            <section>
+                <h3>Q2 (Module 4)</h3>
+                <hr>
+                <p>What are the problems associated with parallel computing?</p>
+            </section>
+            <section>
+                <h3>Q3 (Module 4)</h3>
+                <hr>
+                <p>Since Java has automatic garbage collection feature, does it mean we can never run out of memory?</p>
+            </section>
+            <section>
+                <h3>Q4 (Module 5)</h3>
+                <hr>
+                <p>According to you which is the most useful design pattern to accomplish 
+                    SOLID principles in software development. Please explain.</p>
+            </section>
+            <section>
+                <h3>Q5 (Module 5)</h3>
+                <hr>
+                <p>Is it true that "applying open closed principle everywhere can lead to 
+                    hard to understand code". Please explain.</p>
+            </section>
+            <section>
+                <h3>Q6 (Module 5)</h3>
+                <hr>
+                <p>What approach should be followed for making ourselves good enough at 
+                    design patterns in order to deal with real time client?</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="js/reveal.js"></script>
+
+    <script>
+        // More info about config & dependencies:
+        // - https://github.com/hakimel/reveal.js#configuration
+        // - https://github.com/hakimel/reveal.js#dependencies
+        Reveal.initialize({
+            controls: true,
+            transition: 'concave',
+            progress: true,
+            dependencies: [{
+                    src: 'plugin/markdown/marked.js'
+                },
+                {
+                    src: 'plugin/markdown/markdown.js'
+                },
+                {
+                    src: 'plugin/notes/notes.js',
+                    async: true
+                },
+                {
+                    src: 'plugin/highlight/highlight.js',
+                    async: true
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>
