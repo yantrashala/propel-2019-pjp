@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h3>Q1 (Module 6)</h3>
+                <hr>
+                <p>How do we use Java Profiling in the system? Is there any API for this?</p>
+            </section>
+            <section>
+                <h3>Q2 (Module 6)</h3>
+                <hr>
+                <p>How one should think of test cases for test driven development, 
+                   and behavior driven development in large codebases 
+                   (product code which needs to be delivered to the client)? 
+                   Any specific tactic for a fresher?</p>
+            </section>
+            <section>
+                <h3>Q3 (Module 6)</h3>
+                <hr>
+                <p>What is technical debt and how can we use refactoring to fix it?</p>
+            </section>
+            <section>
+                <h3>Q4 (Module 7)</h3>
+                <hr>
+                <p>Which IDE is popular here? Eclipse or IntelliJ Idea?</p>
+            </section>
+            <section>
+                <h3>Q5 (Module 7)</h3>
+                <hr>
+                <p>What tools (in web applications) apart from JMeter, Fiddler, 
+                    you recommend a fresher to learn pre-joining?</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="js/reveal.js"></script>
+
+    <script>
+        // More info about config & dependencies:
+        // - https://github.com/hakimel/reveal.js#configuration
+        // - https://github.com/hakimel/reveal.js#dependencies
+        Reveal.initialize({
+            controls: true,
+            transition: 'concave',
+            progress: true,
+            dependencies: [{
+                    src: 'plugin/markdown/marked.js'
+                },
+                {
+                    src: 'plugin/markdown/markdown.js'
+                },
+                {
+                    src: 'plugin/notes/notes.js',
+                    async: true
+                },
+                {
+                    src: 'plugin/highlight/highlight.js',
+                    async: true
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>
