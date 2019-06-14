@@ -1,11 +1,26 @@
 ## Propel PJP
 
-[Batch #1 Quiz Content Pack #1 - 13.04.2019](https://yantrashala.github.io/propel-2019-pjp/quiz-cp1b1.html)
+## Slide creation instructions
 
-[Batch #1 Q&A Content Pack #1 - 13.04.2019](https://yantrashala.github.io/propel-2019-pjp/qna-cp1b1.html)
+  Slides are created using reveal.js .  
+  Two files need to be added; One for Q&A and the Other for Quiz .  
+  https://github.com/hakimel/reveal.js .  
+  https://revealjs.com/#/ .  
 
+### Batch 1, Content Pack #1
+
+[Batch #1 Quiz Content Pack #1 - 27.04.2019](https://yantrashala.github.io/propel-2019-pjp/quiz-cp1b1.html)
+
+[Batch #1 Q&A Content Pack #1 - 27.04.2019](https://yantrashala.github.io/propel-2019-pjp/qna-cp1b1.html)
+
+### Batch 2, Content Pack #1
 
 [Batch #2 Quiz Content Pack #1 - 15.04.2019](https://yantrashala.github.io/propel-2019-pjp/quiz-cp1b2.html)
 
 [Batch #2 Q&A Content Pack #1 - 15.04.2019](https://yantrashala.github.io/propel-2019-pjp/qna-cp1b2.html)
 
+### Batch 2, Content Pack #2
+
+[Batch ## Quiz Content Pack #2- 18.05.2019](https://yantrashala.github.io/propel-2019-pjp/quiz-cp2.html)
+
+[Batch ## Q&A Content Pack #2 - 18.05.2019](https://yantrashala.github.io/propel-2019-pjp/qna-cp2.html)
