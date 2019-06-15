@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css">
+  
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script> 
+</head>
+ 
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h3>Q1 </h3>
+                <hr>
+                <p>Are there any special tools used to make the code look clean or is it totally upto the developer?</p>
+            </section>
+            <section>
+                <h3>Q2 </h3>
+                <hr>
+                <p>what are the real applications of mono repository setup and discrete repository setup?  I mean what is the ground basis of when to use either of them.</p>
+            </section>
+            <section>
+                <h3>Q3 </h3>
+                <hr>
+                <p>For the deployment of applications what all cloud platforms are used in Publicis Sapient?</p>
+            </section>
+            <section>
+                <h3>Q4</h3>
+                <hr>
+                <p>Which methodology ( Agile or DevOps) is more accepted at Publicis.Sapient?</p>
+            </section>
+            <section>
+                <h3>Q5</h3>
+                <hr>
+                <p>While identifying a suitable data related pattern to combine information from multiple services, are there any parameters other than data size to be considered in choosing between API composition and Event sourcing?If yes, what are they?</p>
+            </section>
+            <section>
+                <h3>Q6 </h3>
+                <hr>
+                <p>When asynchronous communication should be used and when synchronous communication should be used?</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="js/reveal.js"></script>
+
+    <script>
+        // More info about config & dependencies:
+        // - https://github.com/hakimel/reveal.js#configuration
+        // - https://github.com/hakimel/reveal.js#dependencies
+        Reveal.initialize({
+            controls: true,
+            transition: 'concave',
+            progress: true,
+            dependencies: [{
+                    src: 'plugin/markdown/marked.js'
+                },
+                {
+                    src: 'plugin/markdown/markdown.js'
+                },
+                {
+                    src: 'plugin/notes/notes.js',
+                    async: true
+                },
+                {
+                    src: 'plugin/highlight/highlight.js',
+                    async: true
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>
