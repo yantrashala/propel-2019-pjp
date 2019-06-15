@@ -29,5 +29,5 @@ Batch ## Q&A Content Pack #2 - 18.05.2019](https://yantrashala.github.io/propel-
 
 [Batch #1 Quiz Content Pack #4 - 14.06.2019](https://yantrashala.github.io/propel-2019-pjp/quiz-cp4.html)
 
-[Batch #1 Q&A Content Pack #4 - 14.06.2019](https://yantrashala.github.io/propel-2019-pjp/qna-cp4.html)
+[Batch #1 Q&A Content Pack #4 - 14.06.2019](https://yantrashala.github.io/propel-2019-pjp/qna-cp4.html) 
 
