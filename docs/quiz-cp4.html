@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>  
+
+<body>
+	<div class="reveal"> 
+		<div class="slides">
+			<section>
+				<h5>Maltron, Colemak, Azerty and Dvorak are:</h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">1. Encoding Formats</p>
+				<p class="fragment fade-in" data-fragment-index="2">2. Early Linux versions</p>
+				<p class="fragment fade-in" data-fragment-index="3">3. Keyboard Layouts</p>
+				<p class="fragment fade-in" data-fragment-index="4">4. Network protocols</p>
+			</section>
+			<section class="framgment fade-in">
+				<p class="fragment highlight-green">
+					3. Keyboard Layouts
+				</p>
+			</section>
+			<section>
+				<h5>Which of the following is NOT a software process quality?</h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">1. Productivity</p>
+				<p class="fragment fade-in" data-fragment-index="2">2. Portability</p>
+				<p class="fragment fade-in" data-fragment-index="3">3. Timeliness</p>
+				<p class="fragment fade-in" data-fragment-index="4">4. Visibility</p>
+			</section>
+			<section>
+				<p class="fragment highlight-green">
+					2. Portability
+				</p>
+			</section>
+			<section>
+				<h5>Father of Indian Supercomputing</h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">1. Ragunath Mashelkar</p>
+				<p class="fragment fade-in" data-fragment-index="2">2. Vijay Bhatkar</p>
+				<p class="fragment fade-in" data-fragment-index="3">3. Jayant Narlikar</p>
+				<p class="fragment fade-in" data-fragment-index="4">4. Nandan Nilekani</p>
+			</section>
+			<section>
+				<p class="fragment highlight-green">
+					2. Vijay Bhatkar
+				</p>
+			</section>
+			<section>
+				<h5>Which of the these are characteristics of a good design</h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">1. Low Coupling & Low Cohesion</p>
+				<p class="fragment fade-in" data-fragment-index="2">2. High Coupling & Low Cohesion</p>
+				<p class="fragment fade-in" data-fragment-index="3">3. High Cohesion & High Coupling</p>
+				<p class="fragment fade-in" data-fragment-index="4">4. Low Coupling & High Cohesion</p>
+			</section>
+			<section>
+				<p class="fragment highlight-green">
+					4. Low Coupling & High Cohesion
+				</p>
+			</section>
+			<section>
+				<h5>Which was the largest tech aquisition in history?</h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">1. IBM buying Red Hat</p>
+				<p class="fragment fade-in" data-fragment-index="2">2. Dell buying EMC</p>
+				<p class="fragment fade-in" data-fragment-index="3">3. Microsoft buying Github</p>
+				<p class="fragment fade-in" data-fragment-index="4">4. Cisco buying Duo</p>
+			</section>
+			<section>
+				<p class="fragment highlight-green">
+                    2. Dell buying EMC
+                </p>
+			</section>
+			<!--
+			<section data-markdown="quiz-cp1-b1.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15">
+				13.04.2019 Content Pack #01 Batch #001 - Quiz
+				<script type="text/template">
+					 !-- .slide: data-background="#ff0000" --
+					- Item 1 !-- .element: class="fragment" data-fragment-index="2" --
+					- Item 2 !-- .element: class="fragment" data-fragment-index="1" --
+				</script>
+			</section>
+			<section data-markdown="qna-cp1-b1.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15">
+				13.04.2019 Content Pack #01 Batch #001 - Q&A
+			</section>
+			<section data-markdown="quiz-cp1-b2.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15">
+				15.04.2019 Content Pack #01 Batch #002 - Quiz
+			</section>
+			<section data-markdown="qna-cp1-b2.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15">
+				15.04.2019 Content Pack #01 Batch #002 - Q&A
+			</section>
+			-->
+		</div>
+	</div>
+
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			controls: true,
+			transition: 'concave',
+			progress: true,
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true
+				}
+			]
+		});
+	</script>
+</body>
+
+</html>
